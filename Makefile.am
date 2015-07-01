@@ -234,7 +234,7 @@ ported_omb_rdm_mbw_mr_SOURCES = \
 ported_omb_rdm_mbw_mr_LDADD = libfabtests.la
 
 ported_omb_rdm_bw_threaded_SOURCES = \
-        ported/omb/rdm_bw.c \
+        ported/omb/rdm_bw_threaded.c \
         ported/omb/ft_utils.c
 ported_omb_rdm_bw_threaded_LDADD = libfabtests.la
 
